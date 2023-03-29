@@ -1,6 +1,7 @@
-<?xml version="1.0"?>
-<component>
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
     <id>edu.stanford.protege</id>
+    <launchable type="desktop-id">edu.stanford.protege.desktop</launchable>
     <name>Protégé</name>
     <summary>
         A feature rich ontology editing environment
