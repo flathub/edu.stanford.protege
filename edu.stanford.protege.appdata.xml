@@ -5,9 +5,7 @@
         <name>Stanford University</name>
     </developer>
     <name>Protégé</name>
-    <summary>
-        A feature rich ontology editing environment
-    </summary>
+    <summary>Ontology editing environment</summary>
     <description>
         <p>
             Protégé Desktop is a feature rich ontology editing environment with
