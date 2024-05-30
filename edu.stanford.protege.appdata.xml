@@ -23,6 +23,8 @@
         </p>
     </description>
     <url type="homepage">https://protege.stanford.edu/</url>
+    <url type="bugtracker">https://github.com/protegeproject/protege/issues</url>
+    <url type="faq">https://protegewiki.stanford.edu/wiki/ProtegeProject_FAQ</url>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>BSD-3-Clause</project_license>
     <launchable type="desktop-id">edu.stanford.protege.desktop</launchable>
