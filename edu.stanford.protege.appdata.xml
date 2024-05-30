@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
     <id>edu.stanford.protege</id>
+    <developer id="edu.stanford">
+        <name>Stanford University</name>
+    </developer>
     <name>Protégé</name>
     <summary>
         A feature rich ontology editing environment
