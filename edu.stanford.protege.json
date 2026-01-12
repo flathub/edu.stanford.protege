@@ -9,6 +9,7 @@
         "/include",
         "/lib/pkgconfig",
         "/lib/*.la",
+        "/lib/*.a",
         "/share/man"
     ],
     "finish-args": [
