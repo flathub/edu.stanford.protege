@@ -42,8 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/protegeproject/protege-distribution/releases/download/protege-5.6.5/Protege-5.6.5-platform-independent.zip",
-                    "sha512": "cce367655680c2c6c4d568867e5194e128a3ca379345eff55a5f2998dbeba39e39a7949c269bd685f1de71d88bba4616f522c27d601a39a54d28d87425f3b176"
+                    "url": "https://github.com/protegeproject/protege-distribution/releases/download/protege-5.6.6/Protege-5.6.6-platform-independent.zip",
+                    "sha512": "d87677b5b583cceea470fbb2bce140324d226ffd6e289bf551285ee82ba36afb3c6cb4e0156f69ee5c2a1001b00fa3c3e644625261a309cadb30232bda026cca"
                 },
                 {
                     "type": "file",
