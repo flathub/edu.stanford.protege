@@ -1,0 +1,82 @@
+#!/usr/bin/env python
+
+import xml.etree.ElementTree as ET
+import requests
+import urllib
+from markdown import markdown
+
+ALLOWED_TAGS = ['p', 'em', 'code', 'ul', 'ol', 'li']
+
+def append_text(node, s):
+    """
+    Append a piece of text at the end of a node.
+
+    The ElementTree API is a bit tricky to use because it does not support
+    interleaving text and tags nicely, but it has this tail thingy that keeps
+    track of text following a tag. Thus, to effectively append something to a
+    node with child elements, you have to add it to the tail of its last child.
+    """
+
+    if len(node) > 0:
+        print('Appending text to the tail of the last child of ' + str(node) + '.')
+        if node[-1].tail:
+            node[-1].tail += s
+        else:
+            node[-1].tail = s
+    elif node.text:
+        print('Appending text to ' + str(node) + '.')
+        node.text += s
+    else:
+        print('Setting text of '+str(node)+'.')
+        node.text = s
+
+def filter_html(node):
+    filtered_node = ET.Element(node.tag)
+    filtered_node.text = node.text
+    filtered_node.tail = node.tail
+    for c in node:
+        if c.tag in ALLOWED_TAGS:
+            print('Adding ' + str(c))
+            filtered_node.append(filter_html(c))
+        elif c.tag in ['h1', 'h2']:
+            print('Rewriting ' + str(c) + ' to an <p/> tag.')
+            p = ET.Element('p')
+            p.text = c.text
+            p.tail = c.tail
+            p.extend(filter_html(c))
+            filtered_node.append(p)
+        elif c.tag in ['strong']:
+            print('Rewriting ' + str(c) + ' to an <em/> tag.')
+            em = ET.Element('em')
+            em.text = c.text
+            em.tail = c.tail
+            em.extend(filter_html(c))
+            filtered_node.append(em)
+        else:
+            print('Rejected ' + str(c)+ ', but adding its text content and child elements.')
+            if c.text:
+                append_text(filtered_node, c.text)
+            filtered_node.extend(filter_html(c))
+            if c.tail:
+                append_text(filtered_node, c.tail)
+    return filtered_node
+
+releases = requests.get('https://api.github.com/repos/protegeproject/protege/releases').json()
+root = ET.Element('releases')
+for release in releases:
+    v = release['tag_name']
+    v = v.removeprefix('protege-parent-')
+    if v == '5':
+        v = '5.0.0'
+    v = v.removeprefix('v')
+    r = ET.SubElement(root, 'release', attrib={'version': v, 'date': release['published_at']})
+    if 'body' in release:
+        d = ET.SubElement(r, 'description')
+        d.extend(filter_html(ET.fromstring('<root>' + markdown(release['body']) + '</root>')))
+    if 'html_url' in release:
+        ET.SubElement(r, 'url', attrib={'type': 'details'}).text = release['html_url']
+
+tree = ET.ElementTree(root)
+ET.indent(tree, '    ')
+tree.write('edu.stanford.protege.releases.xml')
+
