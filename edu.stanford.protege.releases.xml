@@ -1,0 +1,234 @@
+<releases>
+    <release version="5.6.8" date="2025-09-03T21:11:42Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.8.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/5.6.8</url>
+    </release>
+    <release version="5.6.7" date="2025-08-09T08:36:43Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.7.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/5.6.7</url>
+    </release>
+    <release version="5.6.6" date="2025-05-23T21:25:34Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.6, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/5.6.6</url>
+    </release>
+    <release version="5.6.5" date="2024-10-28T19:41:20Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.5, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/5.6.5</url>
+    </release>
+    <release version="5.6.4" date="2024-05-30T15:29:38Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.4, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/5.6.4</url>
+    </release>
+    <release version="5.6.3" date="2023-09-29T09:36:00Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.3, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.6.3</url>
+    </release>
+    <release version="5.6.2" date="2023-05-22T14:54:17Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.2, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.6.2</url>
+    </release>
+    <release version="5.6.1" date="2023-02-17T15:34:01Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.1, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.6.1</url>
+    </release>
+    <release version="5.6.0" date="2023-02-09T16:10:06Z">
+        <description>
+            <p>This release is the core of Prot&#233;g&#233; 5.6.0, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.6.0</url>
+    </release>
+    <release version="5.6.0-beta-2" date="2023-01-13T11:55:16Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.6.0, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.6.0-beta-2</url>
+    </release>
+    <release version="5.6.0-beta-1" date="2022-11-29T13:18:49Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.6.0-beta-1 Distribution, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.6.0-beta-1</url>
+    </release>
+    <release version="5.5.0" date="2019-03-15T00:16:19Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.5.0, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.5.0</url>
+    </release>
+    <release version="5.5.0-beta-9" date="2019-02-07T18:15:45Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.5.0-beta-9 Distribution, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.5.0-beta-9</url>
+    </release>
+    <release version="5.5.0-beta-8" date="2019-02-07T18:15:24Z">
+        <description />
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.5.0-beta-8</url>
+    </release>
+    <release version="5.5.0-beta-7" date="2018-12-18T00:21:21Z">
+        <description />
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.5.0-beta-7</url>
+    </release>
+    <release version="5" date="2018-12-18T00:20:38Z">
+        <description />
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5</url>
+    </release>
+    <release version="5.5.0-beta-5" date="2018-11-08T22:22:43Z">
+        <description />
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.5.0-beta-5</url>
+    </release>
+    <release version="5.5.0-beta-4" date="2018-10-23T00:42:49Z">
+        <description />
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.5.0-beta-4</url>
+    </release>
+    <release version="5.5.0-beta-3" date="2018-09-17T19:15:30Z">
+        <description />
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.5.0-beta-3</url>
+    </release>
+    <release version="5.5.0-beta-2" date="2018-09-17T19:15:01Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.5.0-beta-2 Distribution, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.5.0-beta-2</url>
+    </release>
+    <release version="5.2.0" date="2017-03-15T01:17:15Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.2.0 Distribution, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.2.0</url>
+    </release>
+    <release version="5.1.0" date="2016-10-11T19:11:40Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.1.0 Distribution, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/v5.1.0</url>
+    </release>
+    <release version="5.0.0" date="2016-05-24T21:33:15Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.0.0 Distribution, which has detailed release notes.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/5.0.0</url>
+    </release>
+    <release version="5.0.0-RC2" date="2016-05-19T01:50:07Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.0.0 Distribution, which has detailed release notes about the changes included in this release.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.0.0-RC2</url>
+    </release>
+    <release version="5.0.0-RC1" date="2016-05-05T01:31:17Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.0.0 Distribution, which has detailed release notes about the changes included in this release.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.0.0-RC1</url>
+    </release>
+    <release version="5.0.0-beta-24" date="2016-04-13T18:27:23Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.0.0 Distribution, which has detailed release notes describing the changes included in this release.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.0.0-beta-24</url>
+    </release>
+    <release version="5.0.0-beta-23" date="2016-04-13T18:26:33Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.0.0 Distribution, which has detailed release notes describing the changes included in this release.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.0.0-beta-23</url>
+    </release>
+    <release version="5.0.0-beta-21" date="2015-12-18T22:56:05Z">
+        <description>
+            <p>This release is the core of the Prot&#233;g&#233; 5.0.0 Distribution, which has detailed release notes describing the changes included in this release.</p>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.0.0-beta-21</url>
+    </release>
+    <release version="5.0.0-beta-17" date="2015-03-17T23:30:02Z">
+        <description>
+            <p>Summary</p>
+            <p>This release provides the option to download Prot&#233;g&#233; with a Java Runtime Environment.  Users should pick the release that is specific for their platform.</p>
+            <p>New functionality</p>
+            <ul>
+                <li>Added "Reload" menu item to the File menu.  Select "Reload" from the File menu or press Ctrl+Shift+R (or Cmd+Shift+R on a Mac) to reload the active ontology.  If the ontology has been modified but not saved then a warning is shown.  (#152)</li>
+            </ul>
+            <p>Other changes</p>
+            <ul>
+                <li>The Prot&#233;g&#233; GitHub repository no longer contains jars for felix and equinox.  These are now pulled from Maven Central. (#157, #158 and #159)</li>
+            </ul>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.0.0-beta-17</url>
+    </release>
+    <release version="5.0.0-beta-16" date="2015-03-12T17:09:00Z">
+        <description>
+            <p>This release contains a number of bug fixes and enhancements:</p>
+            <p>
+                <em>Functionality enhancements:</em>
+            </p>
+            <ul>
+                <li>Upgraded to the OWL API version 3.5.1 (#91)</li>
+                <li>Made some improvements to search (Thanks go to David Osumi-Sutherland @dosumis and EBI colleagues for making useful suggestions!) (#87)</li>
+                <li>Support extra menu items in the reasoner menu (Thanks go to Simon Spero  @sesuncedu)</li>
+                <li>Changed the search field so that pressing backspace in the empty search field hides the search popup (#140)</li>
+            </ul>
+            <p>
+                <em>UI enhancements:</em>
+            </p>
+            <ul>
+                <li>Renamed "Members" section to "Instances" (#110)</li>
+                <li>Stopped the Prot&#233;g&#233; Look and Feel hard coding the font size to 11pt size (#115)</li>
+                <li>Reduced the number of default tabs in the UI.  Note that this only takes effect for new users. (#142)</li>
+                <li>Made it possible to close workspace tabs by clicking a close cross on the tab.  This also updates the Look and Feel of the tabs. (#143)</li>
+                <li>Removed the Plastic3D Look and Feel and other funky Look and Feels.  We now just have Prot&#233;g&#233;, System and Cross-platform. (#147)</li>
+                <li>Tidied the status panel</li>
+                <li>Replaced URI in UI labels with IRI</li>
+            </ul>
+            <p>
+                <em>Performance improvements:</em>
+            </p>
+            <ul>
+                <li>Reduced the memory foot print of rendered ontology views (Thanks go to Simon Spero @sesuncedu )</li>
+                <li>Improved rendering performance of ontologies with unsatisfiable classes (#75)</li>
+                <li>Stopped hidden folders being scanned when searching for ontologies (#83)</li>
+            </ul>
+            <p>
+                <em>Bug fixes:</em>
+             </p>
+             <ul>
+                 <li>Fixed a problem with the Rules View parser (#81)</li>
+                 <li>Fixed eager dismissal of the save dialog (#96)</li>
+                 <li>Fixed the case where NPEs could be thrown if menu items were incorrectly configured (#108)</li>
+                 <li>Fixed copy/move axioms by reference</li>
+                 <li>Fixed FaCT++ Windows plugin (Thanks go to Dmitry Tsarkov @tsarkov)</li>
+                 <li>Fixed a problem where inferred axioms were not updated correctly in a buffering reasoner (#128) (Thanks go to Yevgeny Kazakov @ykazakov)</li>
+                 <li>Fixed an error that could occur when converting entity IRIs to labels (#117)</li>
+                 <li>Fixed a rendering problem with copy/move/delete axioms dialog (#120)</li>
+                 <li>Fixed a problem where MDock could throw a NPE (#132)</li>
+                 <li>Fixed the explanation plugin, which was broken because it was using an incompatible version of the OWL API (#100)</li>
+                 <li>Fixed the problem where the "Show inferences" checkbox would not refresh the display (#131)</li>
+                 <li>Fixed a bug in handling deletion of annotations (#104)</li>
+                 <li>Fixed issues with the Reasoner progress bar, reduced flickering and centre on owner window rather than screen (Thanks go to Yevgeny Kazakov @ykazakov)</li>
+             </ul>
+            <p>
+                <em>Other:</em>
+            </p>
+            <ul>
+                <li>Applied BSD 2-Clause License</li>
+                <li>Fixed a typo in the readme (Thanks go to Yaroslav Halchenko @yarikoptic )</li>
+                <li>Removed stray System.out.println messages</li>
+            </ul>
+        </description>
+        <url type="details">https://github.com/protegeproject/protege/releases/tag/protege-parent-5.0.0-beta-16</url>
+    </release>
+</releases>

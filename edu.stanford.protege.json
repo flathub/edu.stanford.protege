@@ -59,6 +59,10 @@
                 },
                 {
                     "type": "file",
+                    "path": "edu.stanford.protege.releases.xml"
+                },
+                {
+                    "type": "file",
                     "path": "edu.stanford.protege-128.png"
                 }
             ],
@@ -68,6 +72,7 @@
                 "install -Dm755 protege -t /app/bin",
                 "install -Dm644 edu.stanford.protege.desktop -t /app/share/applications",
                 "install -Dm644 edu.stanford.protege.appdata.xml -t /app/share/metainfo",
+                "install -Dm644 edu.stanford.protege.releases.xml -t /app/share/metainfo/releases",
                 "install -Dm644 edu.stanford.protege-128.png /app/share/icons/hicolor/128x128/apps/edu.stanford.protege.png"
             ]
         }

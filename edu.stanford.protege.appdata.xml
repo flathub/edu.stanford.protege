@@ -30,26 +30,7 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>BSD-3-Clause</project_license>
     <launchable type="desktop-id">edu.stanford.protege.desktop</launchable>
-    <releases>
-        <release date="2024-05-30" version="5.6.4">
-            <url type="details">https://github.com/protegeproject/protege-distribution/releases/tag/protege-5.6.4</url>
-        </release>
-        <release date="2023-09-29" version="5.6.3">
-            <url type="details">https://github.com/protegeproject/protege-distribution/releases/tag/protege-5.6.3</url>
-        </release>
-        <release date="2023-05-22" version="5.6.2">
-            <url type="details">https://github.com/protegeproject/protege-distribution/releases/tag/protege-5.6.2</url>
-        </release>
-        <release date="2023-02-17" version="5.6.1">
-            <url type="details">https://github.com/protegeproject/protege-distribution/releases/tag/protege-5.6.1</url>
-        </release>
-        <release date="2023-02-09" version="5.6.0">
-            <url type="details">https://github.com/protegeproject/protege-distribution/releases/tag/protege-5.6.0</url>
-        </release>
-        <release date="2019-03-14" version="5.5.0">
-            <url type="details">https://github.com/protegeproject/protege-distribution/releases/tag/v5.5.0</url>
-        </release>
-    </releases>
+    <releases type="external"/>
     <screenshots>
         <screenshot type="default">
             <image>https://dl.flathub.org/media/edu/stanford/protege/5f6cadb928e1e8ffeb467def1ae00020/screenshots/image-1_orig.png</image>
